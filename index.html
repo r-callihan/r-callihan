@@ -11,13 +11,9 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="wiki.html">Wiki</a></li>
-            <li>
-                <form action="wiki.html" method="get">
-                    <input type="text" name="search" placeholder="Search...">
-                    <button type="submit">Search</button>
-                </form>
-            </li>
+            <li><a href="wiki.html">Wiki</a></li>           
+            <li><input type="text" id="searchInput" placeholder="Search..."></li>
+            <li><button onclick="searchWiki()">Search</button></li>
         </ul>
     </nav>
 </body>
