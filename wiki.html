@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <title>Wiki</title>
-    <script>
+<!--    <script>
         function searchAndHighlight() {
             let keyword = document.getElementById('search').value;
             let content = document.getElementById('content').innerHTML;
@@ -21,7 +22,7 @@
                 }, 5000);
             }
         }
-    </script>
+    </script> --->
 </head>
 <body>
     <nav>
@@ -31,7 +32,7 @@
         </ul>
     </nav>    
     <header>
-        <input type="text" id="search" placeholder="Search..." oninput="searchAndHighlight()">
+        <input type="text" id="searchBar" placeholder="Search..." > <!-- oninput="searchAndHighlight()"> -->
     </header>
     <div id="content">
         <h1>Welcome to the Wiki Page</h1>
