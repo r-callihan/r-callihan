@@ -131,7 +131,7 @@ input:focus, textarea:focus, select:focus{
   width: 100%;
   padding: 10px 0px 0px 0px;
 }
-#LayoutGrid1 > .col-2{
+#LayoutGrid1 > .col-2 {
   background-color: transparent;
   background-image: none;
   border: 0px solid: #ffffff;
