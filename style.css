@@ -1,13 +1,140 @@
 /* Welcome to my style sheet, my hard-r felleR */
+/* I pray that you are well and at peace with yourself.
+This whole thing is designed to be a personal experiment of sorts, and I want to take you along with me. 
+God Bless. - R. Callihan, One of God's Fellow Swolldiers */
+
+/* Potential Color Schemes:
+    Dark Green #172D13
+    Lighter Green #00b35a
+    Redish #b31200
+
+/*Global styles*/
+
 body {
-  background-color: white;
+  background-color: #172D13;
 }
-h1 {
-  color: blue;
+
+
+a {
+  text-decoration: none;
 }
-p {
-  color: black;
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
 }
-.highlight {
-  background-color: yellow;
+
+.navbar a:hover {
+  background-color: lightgreen;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+a.style2:visited {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a.style2:active {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a.style2:hover {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+h1,
+.h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+h2,
+.h2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+h3,
+.h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+h4,
+.h4 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+h5,
+.h5 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+h6,
+.h6 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+.CustomStyle {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #2e74b5;
+  background-color: transparent;
 }
